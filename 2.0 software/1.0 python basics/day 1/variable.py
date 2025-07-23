@@ -39,16 +39,34 @@ print("my full name is" + combine_name)
 #A ban name generator
 
 
-name=input("what is your name")
+#name=input("what is your name")
 
-age=input("what is your age")
+#age=input("what is your age")
 
-fav_meal=input("what is your favourite mile")
-school=input("what is th name of your school ")
-department=input("what is your department")
-best_friend=input("who is your best friend")
+#fav_meal=input("what is your favourite mile")
+#school=input("what is th name of your school ")
+#department=input("what is your department")
+#best_friend=input("who is your best friend")
 
-print(f"your name is {name} and you are {age} years old. your fav food is {fav_meal} and your school is {school} and your best friend is {best_friend}")
+#print(f"your name is {name} and you are {age} years old. your fav food is {fav_meal} and your school is {school} and your best friend is {best_friend}")
+
+#exercise
+
+length = 10
+width = 5
+perimeter = (length + width) *2
+area = length * width
+
+print(f"the perieter is {perimeter}")
+
+print(f"the areal is {area}")
+
+#exercise 3
+temp_in_celsius=input("enter temp in degree")
+converted_temp=int(temp_in_celsius)
+results =(converted_temp * 9/5) +32
+
+print(f"my results: {results}")
 
 
 
