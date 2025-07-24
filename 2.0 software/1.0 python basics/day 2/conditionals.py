@@ -29,14 +29,41 @@
     
     #multiple elif
 #print("_"*50)
-grade=float(input("what is your grade: "))
-if grade>=80:
-    print("A grade")
-elif grade>=70:
-    print("B+😍")
-elif grade>=60:
-    print("B grade")
-elif grade>=50:
-    print("C grade")
+#grade=float(input("what is your grade: "))
+#if grade>=80:
+  #  print("A grade")
+#elif grade>=70:
+  #  print("B+😍")
+#elif grade>=60:
+  #  print("B grade")
+#elif grade>=50:
+   # print("C grade")
+#else:
+  #  print("resit")
+    
+    #calculator
+    
+first_number=float(input("Enter first number: "))
+second_number=float(input("entet second number"))
+operator=input("enter operator")
+results=0
+
+if operator=="+":
+    results=first_number + second_number
+    print(f"result is : {results}")
+elif operator=="-":
+    results=first_number - second_number
+    print(f"result is : {results}")
+elif operator=="/":
+    results=first_number / second_number
+    print(f"result is : {results}")
+elif operator=="*":
+   
+   
+    results==first_number * second_number
+    print(f"result is : {results}")
+ #  print(f"result is : {results}")
+   # results=="cannot go"
+   # print(f"result is : {results}")
 else:
-    print("resit")
+    print("check your operation signs")
