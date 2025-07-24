@@ -67,3 +67,21 @@ elif operator=="*":
    # print(f"result is : {results}")
 else:
     print("check your operation signs")
+    
+    #leap year checker
+    
+    
+Year=int(input("Enter Year: "))
+if Year%4!=0 and Year%100!=0 and Year%400!=0:
+    print("not a leap year")
+else:
+    print("leep year")
+
+Year=int(input("Enter Year: "))
+if Year%4!=0:
+    if Year%100!=0:
+        if Year%400!=0:
+            print("not a leap year")
+else:
+    print("leap year")
+    
