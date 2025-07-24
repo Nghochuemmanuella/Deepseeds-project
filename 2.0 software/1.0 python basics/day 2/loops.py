@@ -56,3 +56,28 @@ print("finding the first even number: ")
 for number in range(1, 10):
  if number % 2 == 0:
     print(f"found even number: {number}") 
+    
+    
+    #continues - skip to next iteration
+print ("\nPrinting only odd numbers:")
+for number in range(1, 10):
+    if number % 2 == 0:
+        continue
+    print(f"odd number: {number}")
+    
+    #how to put loops insides of loops()
+    
+    #multiplication table
+print("multiplication Table:")
+for i in range(1, 4):
+ for j in range(1, 4):
+    result = i * j
+    print(f"{i} x {j} = {result}")
+print()
+
+# Pattern printing
+print("Triangle pattern:")
+for row in range(1, 6):
+    for star in range(row):
+        print("*", end="")
+    print() 
